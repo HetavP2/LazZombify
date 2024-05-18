@@ -1,4 +1,7 @@
 https://www.youtube.com/watch?v=i3sLv1sus0I
+https://www.geeksforgeeks.org/multiple-color-detection-in-real-time-using-python-opencv/
 
-open source 
+open source - xml
 https://github.com/opencv/opencv/blob/4.x/data/haarcascades/haarcascade_frontalface_default.xml
+
+
