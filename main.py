@@ -5,7 +5,7 @@ face_classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 
 def face_rec(person_img):
-    red = cv2.cvtColor(person_img, cv2.COLOR_BGR2GRAY)
+    red = cv2.cvtColor(person_img, cv2.COLOR_RGB2BGR)
     faces = face_classifier.detectMultiScale(red, 1.3, 5)
     if len(faces) == 0:
         return person_img
