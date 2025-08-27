@@ -1,49 +1,74 @@
 # LazZombify
 
-LazZombify is a Python project that performs real-time face detection using your webcam and OpenCV. It demonstrates basic computer vision techniques with Haar cascades.
+## Introduction
 
-## Features
+LazZombify is a Python-based computer vision project that demonstrates real-time face detection using your webcam. Leveraging OpenCV and Haar cascades, it highlights detected faces in a live video stream. The project is beginner-friendly and serves as a practical introduction to image processing and face recognition techniques.
 
-- Real-time face detection via webcam
-- Highlights detected faces with rectangles
+---
 
-## Project Structure
+## ✨ Features
 
-- `firsttolearnfacerec.py` — Main script for face detection
-- `haarcascade_frontalface_default.xml` — Haar cascade classifier for faces
-- `zombie.py` — Additional image processing script (see file for details)
-- `sources.txt` — References and sources for code/data
+- **Real-Time Face Detection**
+  - Detects faces from webcam feed using Haar cascade classifier.
+  - Draws rectangles around detected faces in the video stream.
 
-## Requirements
+- **Simple User Interaction**
+  - Press `q` to quit the application.
+  - Easy-to-understand code for learning and experimentation.
 
-- Python 3.x
-- OpenCV (`cv2`)
-- NumPy (`numpy`)
+- **Extensible Scripts**
+  - Includes additional scripts (e.g., `zombie.py`) for further image processing or experimentation.
 
-Install dependencies:
+- **Open Source References**
+  - Uses publicly available Haar cascade data and tutorials.
 
-```sh
-pip install opencv-python numpy
-```
+---
 
-## Usage
+## 🛠️ Tech Stack
 
-1. Ensure your webcam is connected.
-2. Run the main script:
+- **Backend / Core**
+  - **Python 3.x**
+  - **OpenCV (`cv2`)**: For image capture and face detection.
+  - **NumPy**: For array and image data manipulation.
 
-    ```sh
-    python firsttolearnfacerec.py
-    ```
+- **Data**
+  - **Haar Cascade XML**: Pre-trained classifier for frontal face detection.
 
-3. A window titled "Zombie Detection" will open, showing your webcam feed with rectangles around detected faces.
-4. Press `q` to quit.
+---
 
-## How It Works
+## 📝 Project Structure
 
-- Loads Haar cascade classifier for face detection
-- Captures frames from webcam
-- Detects faces and draws rectangles
-- Displays the processed video feed
+- `firsttolearnfacerec.py` — Main script for face detection.
+- `haarcascade_frontalface_default.xml` — Haar cascade classifier file.
+- `zombie.py` — Additional image processing script.
+- `sources.txt` — References and data sources.
+
+---
+
+## How to Run
+
+Follow these steps to set up and run LazZombify:
+
+1. **Install Python**  
+   Ensure Python 3.x is installed on your system.
+
+2. **Install dependencies**  
+   Open a terminal in the project directory and run:
+   ```
+   pip install opencv-python numpy
+   ```
+
+3. **Run the application**  
+   In the project directory, execute:
+   ```
+   python firsttolearnfacerec.py
+   ```
+
+4. **Access the face detection window**  
+   A window titled "Zombie Detection" will open, showing your webcam feed with rectangles around detected faces.  
+   Press `q` to quit.
+
+---
 
 ## References
 
